@@ -1,13 +1,11 @@
-# Sample Hardhat Project
+# Blockchain Job Portal 
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+This project contains the smart contract (written with Solidity) that allows the functionality for creating and applying to jobs. The contract can hold the amount in escrow and freelancers can apply to job by submitting some fee to the contract (currently 10 Wei for testing).
 
-Try running some of the following tasks:
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.ts
-```
+## Upcoming Features
+* Releasing the amount to the freelancer's address
+* Handling disputes
+* Frontend (NextJS)
+
+I will update the readme as the application grows.
